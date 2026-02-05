@@ -49,7 +49,36 @@ This repository is organized by certification level:
 ### This Repository
 - **Flashcard Decks**: Anki packages with 50+ cards covering key concepts
 - **Certification Guides**: Detailed breakdown of exam objectives and topics
+- **Hands-On Labs**: Practical deployment guides for AWS GPU infrastructure
 - **Technical References**: Quick reference materials for NVIDIA frameworks
+
+## Hands-On Labs
+
+Practical, hands-on experience is crucial for mastering GPU infrastructure. This repository includes step-by-step deployment guides with real command outputs and logs.
+
+### Available Labs
+
+**[AWS GPU Deployment Guide](./hands-on/AWS-GPU-Deployment-Guide.md)**
+
+- Launch EC2 GPU instances (g6, p4d, p5 families)
+- Install and verify NVIDIA drivers
+- Configure Docker with NVIDIA Container Toolkit
+- Run containerized GPU workloads
+- Complete with example outputs and troubleshooting steps
+- **Time:** 25-35 minutes
+
+**What you'll learn:**
+
+- GPU instance selection for different workloads
+- NVIDIA driver installation and verification
+- Container-based GPU application deployment
+- Real-world infrastructure troubleshooting
+
+**Prerequisites:**
+
+- AWS account with EC2 permissions
+- SSH key pair configured
+- Basic Linux command line knowledge
 
 ## Certification Paths
 
